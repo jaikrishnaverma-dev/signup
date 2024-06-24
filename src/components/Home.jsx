@@ -1,5 +1,4 @@
 import React from "react";
-import TextInput from "./TextInput";
 import { Outlet } from "react-router-dom";
 
 const Home = () => {
@@ -18,7 +17,7 @@ const Home = () => {
         </div>
       </div>
       <div className="form_container">
-          <Outlet />
+        <Outlet />
       </div>
     </div>
   );

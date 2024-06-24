@@ -206,6 +206,7 @@
   width: 100%;
   gap: 10px;
   padding: 5px 0px;
+  background-color: transparent;
 }
 
 .oauth_btn>img {
@@ -221,28 +222,32 @@ button {
 }
 
 @media (max-width: 500px) {
-  .left_container{
+  .left_container {
     display: none;
   }
 }
+
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-  .vector__wrapper{
+  .vector__wrapper {
     display: none;
   }
 
-  .form_container{
+  .form_container {
     width: 100%;
     max-width: 600px;
     border-radius: 0px;
   }
-  .inputsection{
+
+  .inputsection {
     width: calc(100% - 30px);
   }
-  .form_title{
+
+  .form_title {
     font-size: 30px;
   }
-  .oauth_wrapper{
+
+  .oauth_wrapper {
     flex-direction: column;
   }
 }
@@ -253,20 +258,23 @@ button {
   .tagline>p {
     font-size: 19px;
   }
+
   .vector__wrapper>img {
     height: 217px;
-}
-.oauth_wrapper{
-  flex-direction: column;
-}
+  }
+
+  .oauth_wrapper {
+    flex-direction: column;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
   .vector__wrapper {
     top: 70%;
-}
-.vector__wrapper>img {
-  height: 300px;
-}
+  }
+
+  .vector__wrapper>img {
+    height: 300px;
+  }
 }
