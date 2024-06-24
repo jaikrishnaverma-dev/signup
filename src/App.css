@@ -1,38 +1,53 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 .App {
-  text-align: center;
+ background-color:  #7144F1;
+ min-height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper{
+  display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left_container{
+  width:25%;
+  padding: 40px;
 }
+.logo>img{
+  width: 41px;
+  height: 48.97px;
+}
+.vector__wrapper{
+  position: fixed;
+  top:65%;
+  left: 15%;
+  transform: translate(-15%, -50%);
+}
+.vector__wrapper>img{
+  height: 350px;
+}
+.tagline{
+margin: 30px 0px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.tagline>p{
+  font-family: "Syne", sans-serif;
+  color: #ffff;
+  font-size: 45px;
+  padding: 10px 0px;
+}
+.form_container{
+width: 75%;
+height: 100vh;
+min-width: 320px;
+background-color: white;
+border-radius: 45px 0px 0px 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.form_card{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
